@@ -1,3 +1,8 @@
+package main
+
+func main(){
+	
+}
 // 1.查看 a 变量的地址，取址
 // var a = 10
 

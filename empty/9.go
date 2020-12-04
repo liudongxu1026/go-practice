@@ -1,3 +1,9 @@
+package main
+
+func main() {
+
+}
+
 // (不懂就看 it-go 16.go)
 // 1.使用 type 定义 calc 方法类型
 // 1.1 定义 1 个函数为 calc 类型

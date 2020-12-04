@@ -1,3 +1,8 @@
+package main
+
+func main(){
+	
+}
 // 1.使用 make 声明一个键值为 string 的 map 类型
 
 // 2.使用 make 声明一个切片，类型为 int ，长度为 10，容量为 15
