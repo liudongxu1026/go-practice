@@ -1,4 +1,9 @@
 // 提示：1 和 2 案例要使用 copy() 方法
+package main
+
+func main() {
+
+}
 
 // 1.复制切片 将切片A复制到切片B中
 

@@ -1,3 +1,8 @@
+package main
+
+func main(){
+	
+}
 // 1.声明一个结构体
 // 要求结构体种 有 stirng int 切片 map
 

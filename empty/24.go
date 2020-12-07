@@ -1,3 +1,8 @@
+package main
+
+func main(){
+	
+}
 // 1.声明两个结构体 Class Student
 
 // 2.实例化 Class 结构体
