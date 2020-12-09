@@ -19,6 +19,8 @@ func main() {
 // 1*2=2 2*2=4
 // 1*3=3 2*3=6 3*3=9
 
-// 4.使用 for 打印 100 以内 奇数、偶数
+// 4.使用 for 打印 100 以内 奇数、偶数，存放到切片中
+// var oddSlice = make([]int, 0, 50)
+// var evenSlice = make([]int, 0, 50)
 
 // 5.label 循环 提示：配合 if break 使用

@@ -38,15 +38,42 @@ import "fmt"
 func main() {
 	// 2.使用 for 遍历 10 以内数字
 	// 0,1,2,3,4,5,6,7,8,9
-	for i := 0; i < 10; i++ {
-		fmt.Printf("%d\n", i)
-	}
+	// for i := 0; i < 10; i++ {
+	// 	fmt.Printf("%d\n", i)
+	// }
 	// 3.使用 for 遍历打印 99 表 (如下格式)
 	// 1*1=1
 	// 1*2=2 2*2=4
 	// 1*3=3 2*3=6 3*3=9
-
-	// 4.使用 for 打印 100 以内 奇数、偶数
-
+	// for i := 1; i <= 9; i++ {
+	// 	fmt.Printf("\n")
+	// 	for j := 1; j <= i; j++ {
+	// 		fmt.Printf("%v * %v = %v  ", j, i, i*j)
+	// 	}
+	// }
+	// 4.使用 for 打印 100 以内 奇数、偶数，存放到切片中
+	// var oddSlice = make([]int, 0, 50)
+	// var evenSlice = make([]int, 0, 50)
+	// for i := 0; i <= 100; i++ {
+	// 	if i%2 == 1 {
+	// 		oddSlice = append(oddSlice, i)
+	// 		fmt.Printf("奇数：%v ", i)
+	// } else {
+	// 		evenSlice = append(evenSlice, i)
+	// 		fmt.Printf("偶数：%v ", i)
+	// 	}
+	// }
+	// fmt.Printf("奇数：%v\n", oddSlice)
+	// fmt.Printf("偶数：%v\n", evenSlice)
 	// 5.label 循环 提示：配合 if break 使用
+label:
+	for i := 0; i < 10; i++ {
+		fmt.Printf("i=%v\n", i)
+		for j := 0; j < 5; j++ {
+			if j == 3 {
+				break label //直接跳出两层循环
+			}
+			fmt.Printf("j=%v\n", j)
+		}
+	}
 }
