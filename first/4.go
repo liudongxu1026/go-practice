@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 // 提示：1 和 2 案例要使用 copy() 方法
 
 func main() {
@@ -37,7 +39,24 @@ func main() {
 
 	// 5.删除切片中索引为 2 的数值
 	// sliceE := []int{0, 1, 2, 3, 4}
-
+	// sliceE = append(sliceE[:2], sliceE[3:]...) // [0 1 3 4]
+	// fmt.Printf("%v", sliceE)
 	// 6. ... 在切片前是干啥的？... 在切片后是干啥的？
+	// 6.1 在前合并为切片
+	// printStringFn2("1", "2", "3")
+	// 6.2在后为打散解片
+	// sliceStr := []string{"1", "2", "3", "4", "5"}
+	// printStringFn1(sliceStr...) //把 sliceStr 打散了传进去
 
 }
+
+// 接收不定量的string参数
+// func printStringFn1(args ...string) {
+// 	for k, v := range args {
+// 		fmt.Printf("k=%v v=%v\n", k, v)
+// 	}
+// }
+// 接收很多string，合并为切片
+// func printStringFn2(sliceData ...string) {
+// 	fmt.Printf("%v", sliceData)
+// }
