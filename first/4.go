@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 // 提示：1 和 2 案例要使用 copy() 方法
 
 func main() {

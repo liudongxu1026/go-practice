@@ -24,3 +24,4 @@ func main() {
 // var evenSlice = make([]int, 0, 50)
 
 // 5.label 循环 提示：配合 if break 使用
+// 提示：跳出两层循环 里层循环使用break
