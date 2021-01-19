@@ -24,5 +24,4 @@ func main() {
 		Info:    make(map[string]string),
 	}
 	fmt.Printf("%p %p\n", user2.Hobbies, user2.Info)
-
 }
